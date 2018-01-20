@@ -170,7 +170,7 @@
 <a class="jxr_linenumber" name="L162" href="#L162">162</a>       <strong class="jxr_keyword">new</strong> DefaultMutableTreeNode(generalAllPrefPanel);
 <a class="jxr_linenumber" name="L163" href="#L163">163</a> 
 <a class="jxr_linenumber" name="L164" href="#L164">164</a>     DefaultMutableTreeNode visuals =
-<a class="jxr_linenumber" name="L165" href="#L165">165</a>       <strong class="jxr_keyword">new</strong> DefaultMutableTreeNode(<strong class="jxr_keyword">new</strong> <a href="../../../../org/apache/log4j/chainsaw/LogPanelPreferencePanel.html">VisualsPrefPanel</a>());
+<a class="jxr_linenumber" name="L165" href="#L165">165</a>       <strong class="jxr_keyword">new</strong> DefaultMutableTreeNode(<strong class="jxr_keyword">new</strong> <a href="../../../../org/apache/log4j/chainsaw/ApplicationPreferenceModelPanel.html">VisualsPrefPanel</a>());
 <a class="jxr_linenumber" name="L166" href="#L166">166</a> 
 <a class="jxr_linenumber" name="L167" href="#L167">167</a>     rootNode.add(general);
 <a class="jxr_linenumber" name="L168" href="#L168">168</a>     rootNode.add(visuals);
@@ -178,7 +178,7 @@
 <a class="jxr_linenumber" name="L170" href="#L170">170</a>     <strong class="jxr_keyword">return</strong> model;
 <a class="jxr_linenumber" name="L171" href="#L171">171</a>   }
 <a class="jxr_linenumber" name="L172" href="#L172">172</a> 
-<a class="jxr_linenumber" name="L173" href="#L173">173</a>     <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">class</strong> <a href="../../../../org/apache/log4j/chainsaw/LogPanelPreferencePanel.html">VisualsPrefPanel</a> <strong class="jxr_keyword">extends</strong> <a href="../../../../org/apache/log4j/chainsaw/BasicPrefPanel.html">BasicPrefPanel</a> {
+<a class="jxr_linenumber" name="L173" href="#L173">173</a>     <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">class</strong> <a href="../../../../org/apache/log4j/chainsaw/ApplicationPreferenceModelPanel.html">VisualsPrefPanel</a> <strong class="jxr_keyword">extends</strong> <a href="../../../../org/apache/log4j/chainsaw/BasicPrefPanel.html">BasicPrefPanel</a> {
 <a class="jxr_linenumber" name="L174" href="#L174">174</a>     <strong class="jxr_keyword">private</strong> <strong class="jxr_keyword">final</strong> JRadioButton topPlacement = <strong class="jxr_keyword">new</strong> JRadioButton(<span class="jxr_string">" Top         "</span>);
 <a class="jxr_linenumber" name="L175" href="#L175">175</a>     <strong class="jxr_keyword">private</strong> <strong class="jxr_keyword">final</strong> JRadioButton bottomPlacement = <strong class="jxr_keyword">new</strong> JRadioButton(<span class="jxr_string">" Bottom         "</span>);
 <a class="jxr_linenumber" name="L176" href="#L176">176</a>     <strong class="jxr_keyword">private</strong> <strong class="jxr_keyword">final</strong> JCheckBox statusBar = <strong class="jxr_keyword">new</strong> JCheckBox(<span class="jxr_string">" Show Status bar "</span>);
@@ -187,7 +187,7 @@
 <a class="jxr_linenumber" name="L179" href="#L179">179</a>     <strong class="jxr_keyword">private</strong> UIManager.LookAndFeelInfo[] lookAndFeels = UIManager.getInstalledLookAndFeels();
 <a class="jxr_linenumber" name="L180" href="#L180">180</a>     <strong class="jxr_keyword">private</strong> <strong class="jxr_keyword">final</strong> ButtonGroup lookAndFeelGroup = <strong class="jxr_keyword">new</strong> ButtonGroup();
 <a class="jxr_linenumber" name="L181" href="#L181">181</a> 
-<a class="jxr_linenumber" name="L182" href="#L182">182</a>     <strong class="jxr_keyword">private</strong> <a href="../../../../org/apache/log4j/chainsaw/LogPanelPreferencePanel.html">VisualsPrefPanel</a>() {
+<a class="jxr_linenumber" name="L182" href="#L182">182</a>     <strong class="jxr_keyword">private</strong> <a href="../../../../org/apache/log4j/chainsaw/ApplicationPreferenceModelPanel.html">VisualsPrefPanel</a>() {
 <a class="jxr_linenumber" name="L183" href="#L183">183</a>       <strong class="jxr_keyword">super</strong>(<span class="jxr_string">"Visuals"</span>);
 <a class="jxr_linenumber" name="L184" href="#L184">184</a> 
 <a class="jxr_linenumber" name="L185" href="#L185">185</a>       <em class="jxr_comment">//Nimbus has major issues with colors in tables..just remove it from the list..</em>
@@ -766,6 +766,6 @@
 <a class="jxr_linenumber" name="L758" href="#L758">758</a> }
 </pre>
 <hr/>
-<div id="footer">Copyright &#169; 2002&#x2013;2017 <a href="https://www.apache.org">Apache Software Foundation</a>. All rights reserved.</div>
+<div id="footer">Copyright &#169; 2002&#x2013;2018 <a href="https://www.apache.org">Apache Software Foundation</a>. All rights reserved.</div>
 </body>
 </html>
